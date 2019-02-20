@@ -9,8 +9,19 @@ function cube() {
   var num = document.getElementById("n1");
   num.value = Math.pow(num.value, 3);
 }
-</head>
+
+function forthpower() {
+  var num = document.getElementById("n1");
+  num.value = Math.pow(num.value, 4);
+}
+
+function sin() {
+  var num = document.getElementById("n1");
+  num.value = Math.sin(num.value);
+}
 </script>
+</head>
+
 <body>
   <h1> Calculadora de Carlos Campos </h1>
   Number:
@@ -18,5 +29,11 @@ function cube() {
   <p>
     <button onclick="cube()"> x^3 </button>
   </p>	
+  <p>
+    <button onclick="forthpower()"> x^4 </button>
+  </p>
+  <p>
+    <button onclick="sin()"> sin(x) </button>
+  </p>
 </body>
 </html>
